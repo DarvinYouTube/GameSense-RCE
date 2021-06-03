@@ -44,10 +44,10 @@ int __cdecl HTTP::CompileCodeFromSite()
   v23 = 1;
   std::iostream::basic_iostream<char>(request_content, &request_content[6], 0);
   v31 = 2;
-  *(int *)((char *)request_content + *(_DWORD *)(request_content[0] + 4)) = (int)&std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';
+  *(int *)((char *)request_content + *(_DWORD *)(request_content[0] + 4)) = (int)&std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable`;
   *(int *)((char *)&v28 + *(_DWORD *)(request_content[0] + 4)) = *(_DWORD *)(request_content[0] + 4) - 104;
   std::streambuf::streambuf(&request_content[6]);
-  request_content[6] = (int)&std::stringbuf::`vftable';
+  request_content[6] = (int)&std::stringbuf::`vftable`;
   request_content[20] = 0;
   request_content[21] = 0;
   LOBYTE(v31) = 3;
@@ -67,7 +67,7 @@ int __cdecl HTTP::CompileCodeFromSite()
         *(_DWORD *)&name.sa_data[2] = **(_DWORD **)v4->h_addr_list,
         connect(s, &name, 16)) )
   {
-    *(int *)((char *)request_content + *(_DWORD *)(request_content[0] + 4)) = (int)&std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';
+    *(int *)((char *)request_content + *(_DWORD *)(request_content[0] + 4)) = (int)&std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable`;
     *(int *)((char *)&v28 + *(_DWORD *)(request_content[0] + 4)) = *(_DWORD *)(request_content[0] + 4) - 104;
     cast_to_unsigned_long(&request_content[6]);
     std::iostream::~basic_iostream<char,std::char_traits<char>>(&request_content[8]);
@@ -138,7 +138,7 @@ LABEL_14:
     j_j_free(v14);
     closesocket(v9);
     WSACleanup();
-    *(int *)((char *)request_content + *(_DWORD *)(request_content[0] + 4)) = (int)&std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable';
+    *(int *)((char *)request_content + *(_DWORD *)(request_content[0] + 4)) = (int)&std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>::`vftable`;
     *(int *)((char *)&v28 + *(_DWORD *)(request_content[0] + 4)) = *(_DWORD *)(request_content[0] + 4) - 104;
     cast_to_unsigned_long(&request_content[6]);
     std::iostream::~basic_iostream<char,std::char_traits<char>>(&request_content[8]);
